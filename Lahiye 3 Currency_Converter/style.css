@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 90px;
+}
+.logo img{
+    width: 100%;
+    vertical-align: bottom;
+}
+nav{
+    width: 60%;
+}
+nav a{
+    color: #959BA4;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    margin-right: 1.5rem;
+}
+nav a:first-child{
+    color: #000;    
+}
+.btn{
+    width: 58px;
+    height: 33px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 6px;
+}
+.btn a{
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: #000000; 
+}
+.header-all{
+    background-color:#F5F5F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px 12px 102px;
+}
+main{
+    margin-left: 25%;
+}
+h1{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.currency-converter{
+    display: flex;
+}
+.def{
+    color: white;
+    background-color: #833AE0;
+}
+.c-left{
+    margin-top: 40px;
+    margin-right: 10%;
+}
+.c-right{
+    margin-top: 40px;
+}
+.items1,.items2{
+    display: flex;
+    width: 259px;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+h3{
+    font-weight: 400;
+    font-size: 12px;
+    color: #9F9F9F;
+}
+.btn1,.btn2{
+    padding: 15px;
+    border: 1px solid #E5E5E5;
+    color: #E5E5E5;
+    font-weight: 400;
+    font-size: 12px;
+    width: 62.56px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn1:hover,.btn2:hover{
+    background-color: #833AE0;
+    cursor: pointer;
+}
+
+.enter{
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    width: 250px;
+    height: 102px;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.enter p{
+    color: #E5E5E5;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10px;
+}
+input{
+    padding: 0 5px;
+    border-style: hidden;
+    outline: none;
+    height: 50px;
+    width: 240px;
+    font-weight: 700;
+    font-size: 30px;
+   
+}
+input::placeholder{
+    color: #000;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
